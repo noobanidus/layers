@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory (26 is current forge version)
+issueTrackerURL="https://github.com/noobanidus/layers/issues" #optional
+license="https://github.com/noobanidus/layers/blob/master/LICENSE"
+[[mods]] #mandatory
+modId="layers" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Layers" #mandatory
+displayURL="https://minecraft.curseforge.com/projects/layers" #optional
+authors="Noobanidus"
+description='''
+Bees that carry things.
+'''
+[[dependencies.Layers]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[35,)" #mandatory
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.Layers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="CLIENT"
